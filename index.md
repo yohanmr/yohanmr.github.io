@@ -4,7 +4,7 @@ My project for GSoC 2017 revolves around Social Navigation. Unlike other normal 
 
 This project needed a good knowledge of navigational algoriths as well a good mathematics background to calculate trajectory, and also to estimate the personal space via assymetric Gaussians.
 
-## Project Overview
+### Project Overview
 This project consists of the following modules which have made. 
 
 # Fake Human Agent
@@ -19,7 +19,7 @@ This is the main component into which changes were made so that the person data 
 # Trajctory Robot 2D
 This component recieves the set of polylines from the navigation component and then adds a plane to the innermodel. What this plane in turn does is remove the path joining two nodes in the graph, thus reoving the path from the robot. After this a wall is added in place of the plaes and this can be physically seen in the trajectort components window.
 
-## How to use
+### How to use
 Firstly robocomp needs to be installed **with FCL support**, the instructions to whuch can be found [here](https://github.com/robocomp/robocomp).
 # Pre requisites:
 1. Clone this [repository](https://github.com/ljmanso/AGM) in your home(~) directory, and run the shell scripts by typing **sh instDep.sh** and **sh compile.sh**. Say yes to support RoboComp.
@@ -44,16 +44,18 @@ Firstly robocomp needs to be installed **with FCL support**, the instructions to
 10. Now the gaussians should appear in the trjectory window.
 11. To test the trajectory run the test trajectory component and just click anywhere in the map and the robot will follow the trajectory.
 
-## Current drawbacks and future work
+### Current drawbacks and future work
 Currently due to the excessive features added to the innermodel, copying the innermodel everytime a change is made to it by our funcations have created a lot of lag, especially if there are multiple humans. This is being worked on by Araceli and will be fixed soon. 
 As for my work as soon as this is resolved I will be adding the human intention feature where depending on the human intention the robot approches the human to interact with him.
 I also plan on adding the feature of human companion where the robot accompanies a human while maintaining his personal space. 
 Both these features need the lag to be fixed which will be done soon.
 
-## Code
+### Code
 My repository can be found [here](https://github.com/yohanmr/robocomp-shelly)
+
 My commits can be found [here](https://github.com/yohanmr/robocomp-shelly/commits/yohanbranch)
+
 My posts explaining my work and its features in detail can be found [here](https://github.com/robocomp/web/tree/master/gsoc/2017/yohan)
 
 ## Credits
-I would like to thank my mentor Pedro and Araceli without whom I could not have completed my project, and Google for giving me this opprtunity. I would also like to thank Luis and Pablo who helped me out when i was stuck.
+I would like to thank my mentor Pedro and Araceli without whom I could not have completed my project, and Google for giving me this opprtunity. I would also like to thank Luis and Pablo who helped me out when I was stuck.
