@@ -36,7 +36,7 @@ Firstly robocomp needs to be installed **with FCL support**, the instructions to
 - testtrajectoryrobot2d
 3. Then open a new terminal and type **rcreoteserver** this starts the server.
 4. In a separate terminal navigate to the AGM folder and run **agglplannerserver**
-5. Go to robocomp-shelly which was my repository and then into etcSim, there run rcmanagersimple **deployment.xml**.
+5. Go to robocomp-shelly which was my repository and then into etcSim, there run **rcmanagersimple deployment.xml**.
 6. A graph of nodes open up.
 7. Turn on executive followed by base in the graph.
 8. Turn on the fake human agent and enter number of humans, and manipulate them as per your needs using the UI.
