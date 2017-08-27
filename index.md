@@ -5,7 +5,7 @@ My project for GSoC 2017 revolves around Social Navigation. Unlike other normal 
 This project needed a good knowledge of navigational algoriths as well a good mathematics background to calculate trajectory, and also to estimate the personal space via assymetric Gaussians.
 
 ## Project Overview
-This project consists of the following modules which have made. 
+This project consists of the following modules: 
 
 ### Fake Human Agent
 This component when deployed is responsible for the generation of multiple humans. It also deploys a human controller UI, which can do a number of tasks such as change velocity, position as well as engage auto pilot mode. More details about this is given in my post 2 which is linked below.
@@ -59,3 +59,7 @@ My posts explaining my work and its features in detail can be found [here](https
 
 ## Credits
 I would like to thank my mentor Pedro and Araceli without whom I could not have completed my project, and Google for giving me this opprtunity. I would also like to thank Luis and Pablo who helped me out when I was stuck.
+
+* * *
+Yohan M R
+
